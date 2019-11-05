@@ -7,6 +7,7 @@ class TraitorsInBloodyMansion : JavaPlugin() {
     override fun onEnable() {
         // Plugin startup logic
         logger.info("Plugin enabled")
+        logger.info("ことりん難しそうだね")
     }
 
     override fun onDisable() {

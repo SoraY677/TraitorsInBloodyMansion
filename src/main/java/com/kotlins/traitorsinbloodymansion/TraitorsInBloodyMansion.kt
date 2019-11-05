@@ -1,5 +1,7 @@
 package com.kotlins.traitorsinbloodymansion
 
+import org.bukkit.command.Command
+import org.bukkit.command.CommandSender
 import org.bukkit.plugin.java.JavaPlugin
 
 class TraitorsInBloodyMansion : JavaPlugin() {
@@ -13,5 +15,10 @@ class TraitorsInBloodyMansion : JavaPlugin() {
     override fun onDisable() {
         // Plugin shutdown logic
         logger.info("plugin disabled")
+    }
+
+    //コマンド処理のメソッドだよ
+    override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<out String>): Boolean {
+        return true
     }
 }

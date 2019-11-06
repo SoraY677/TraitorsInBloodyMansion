@@ -19,6 +19,6 @@ class TraitorsInBloodyMansion : JavaPlugin() {
 
     //コマンド処理のメソッドだよ
     override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<out String>): Boolean {
-        return true
+        return true 
     }
 }

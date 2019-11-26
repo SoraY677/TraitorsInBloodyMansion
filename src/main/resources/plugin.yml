@@ -1,0 +1,4 @@
+name: TraitorsInBloodyMansion
+version: @version@
+main: com.kotlins.traitorsinbloodymansion.TraitorsInBloodyMansion
+

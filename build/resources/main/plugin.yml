@@ -1,4 +1,3 @@
 name: TraitorsInBloodyMansion
 version: 1.0-SNAPSHOT
 main: com.kotlins.traitorsinbloodymansion.TraitorsInBloodyMansion
-api-version: 1.13

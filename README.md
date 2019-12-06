@@ -338,7 +338,7 @@ fun hoge()
 不要なため。
 
 ## import順
-Android関連、ライブラリ、java/javaxの順で記載する。
+Bukkit関連、ライブラリ、java/javaxの順で記載する。
 
 **理由**  
 可読性、コンフリクト防止のため。

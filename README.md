@@ -69,8 +69,26 @@ if (hoge == null) {
 マジックナンバは原則使用しない。代わりに定数や列挙型を使用する。
 ただし初期化のためのi=0やs=""は例外とする。
 
-**理由**
+**理由**  
 マジックナンバを使用すると、その数値が何を意味するのかが不明確になる。
+
+良い例
+
+```kotlin
+const val GENGEN_WEIGHT = 100
+
+var weight = 60
+
+if (weight > GENGEN_WEIGHT) { Bukkit.broadcastMessage("げんげんより重いだと!?") }
+```
+
+悪い例
+
+```kotlin
+  var weight = 60
+  
+  if (weight > 100) { Bukkit.broadcastMessage("げんげんより重いだと!?") }
+```
 
 # 命名規則
 
